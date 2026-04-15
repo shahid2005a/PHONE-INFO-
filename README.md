@@ -13,19 +13,22 @@ PHONE INFO REPO
 pkg update && pkg upgrade -y
 
 
-pkg install cloudflared -y
+termux-setup-storage
 
 
-pkg install git -y
+pkg install cloudflared
 
 
-pkg install python -y
+pkg install git
 
 
-pkg install wget -y
+pkg install python
 
 
-pkg install curl -y
+pkg install wget
+
+
+pkg install curl
 
 
 pip install flask flask_cors
@@ -40,6 +43,7 @@ cd PHONE-INFO-
 ```
 python PHONEINFO.py
 ```
+
 ## 📌 Contact Me  
 
 <a href="https://www.youtube.com/@DigitalCyber-c5n">
