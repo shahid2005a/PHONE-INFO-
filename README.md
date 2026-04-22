@@ -34,6 +34,8 @@ pkg install curl
 pip install flask flask_cors
 
 
+pip install requests pyTelegramBotAPI
+
 git clone https://github.com/shahid2005a/PHONE-INFO-.git
 ```
 
