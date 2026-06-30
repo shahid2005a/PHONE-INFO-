@@ -1,0 +1,14 @@
+#!/usr/bin/env python3
+import sys
+from datetime import datetime
+
+def log_message(message, level="INFO"):
+    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    log_line = f"[{timestamp}] [{level}] {message}"
+    print(log_line)
+    
+    try:
+        with open("phoenix.log", "a", encoding="utf-8") as f:
+            f.write(log_line + "\n")
+    except:
+        pass

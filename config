@@ -1,0 +1,9 @@
+#!/usr/bin/env python3
+CONFIG = {
+    "start_port": 3000,
+    "max_port_attempts": 20,
+    "log_file": "phoenix.log",
+    "data_log": "device_data.log",
+    "debug": False,
+    "version": "1.0.0"
+}
