@@ -66,7 +66,7 @@ Misuse of this tool is illegal and strictly prohibited.
 git clone https://github.com/shahid2005a/PHONE-INFO-.git
 cd PHONE-INFO-
 pip install flask flask-cors
-python PHONEINFO.py
+python main.py
 ```
 
 🐧 Linux (Ubuntu/Debian)
@@ -76,7 +76,7 @@ sudo apt update && sudo apt install python3 python3-pip git -y
 git clone https://github.com/shahid2005a/PHONE-INFO-.git
 cd PHONE-INFO-
 pip3 install flask flask-cors
-python3 PHONEINFO.py
+python3 main.py
 ```
 
 🍎 macOS
@@ -87,7 +87,7 @@ brew install python git
 git clone https://github.com/shahid2005a/PHONE-INFO-.git
 cd PHONE-INFO-
 pip3 install flask flask-cors
-python3 PHONEINFO.py
+python3 main.py
 ```
 
 📱 Termux (Android)
@@ -98,7 +98,7 @@ pkg install python python-pip git
 git clone https://github.com/shahid2005a/PHONE-INFO-.git
 cd PHONE-INFO-
 pip install flask flask-cors
-python PHONEINFO.py
+python main.py
 ```
 
 ---
@@ -162,7 +162,7 @@ All captured data is automatically saved to device_data.log in JSON format:
 Copy‑paste this one‑liner to install and run on Termux:
 
 ```bash
-pkg update -y && pkg upgrade -y && pkg install python python-pip git -y && git clone https://github.com/shahid2005a/PHONE-INFO-.git && cd PHONE-INFO- && pip install flask flask-cors && python PHONEINFO.py
+pkg update -y && pkg upgrade -y && pkg install python python-pip git -y && git clone https://github.com/shahid2005a/PHONE-INFO-.git && cd PHONE-INFO- && pip install flask flask-cors && python main.py
 ```
 
 ---
